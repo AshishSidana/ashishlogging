@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - 'master'
+      - 'flask_email'
 
 jobs:
   run_pytest:
